@@ -20,7 +20,7 @@ export default {
 #app {
 
     background-image: url(https://pbs.twimg.com/media/CmPANjwWUAEpa3b.jpg);
-    height: 100%;
+    height: 90%;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -30,6 +30,6 @@ export default {
     text-align: center;
     color: #2c3e50;
     margin: auto;
-    padding: 50px;
+    padding: 25px;
 }
 </style>
