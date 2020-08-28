@@ -146,9 +146,12 @@ export default {
         },
         start: function () {
             //1.random 1-3--> ชื่อ hp รูป
-            this.aPlayer = this.player[this.random(1, 4) - 1];
-            this.aMonster = this.monster[this.random(1, 4) - 1];
+            this.aPlayer = this.player[this.randomDamage(1, 4) - 1];
+            this.aMonster = this.monster[this.randomDamage(1, 4) - 1];
+            return this.aPlayer,
+                this.aMonster;
         },
+
         attack: function () {
             this.playmax = Math.floor(Math.random() * 10 + 5);
             this.aPlayer.hp = this.aPlayer.hp - this.playmax;
