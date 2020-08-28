@@ -22,7 +22,7 @@
             <div style="position: absolute; z-index: 1;">
                 <img style="width:750px" :src="aura" />
             </div>
-            <div style="position: absolute; z-index: 2;">
+            <div style="position: absolute; z-index: 1;">
                 <img style="width:50%" :src="aPlayer.image" />
             </div>
         </div>
